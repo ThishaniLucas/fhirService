@@ -18,13 +18,6 @@
 import wso2healthcare/healthcare.fhir.r4;
 import wso2healthcare/fhir;
 
-# Generic type to wrap all implemented profiles. 
-# Add required profile types here.
-# public type Patient r4:Patient|r4:USCorePatient;
-public type Patient r4:Patient;
-
-
-
 # A service representing a network-accessible API
 # bound to port `9090`.
 service / on new fhir:Listener(9090, apiConfig) {
