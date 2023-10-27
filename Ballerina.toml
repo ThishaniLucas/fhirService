@@ -1,0 +1,9 @@
+[package]
+org = "vijay"
+name = "health.fhir.r4.aubase410.patient"
+version = "1.0.0"
+distribution = "2201.7.0"
+authors = ["Ballerina"]
+keywords = ["Healthcare", "FHIR", "Patient", "r4", "health.fhir.r4.aubase410"]
+template = true
+
